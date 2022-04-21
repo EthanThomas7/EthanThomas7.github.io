@@ -4,17 +4,31 @@
     <meta charset="utf-8">
     <title>Ethan's Website</title>
     <style media="screen">
-    h1 {color:blue; font-size:20px;}
+    #conBox {border: 5px solid red}
+    #headerBox {color:blue; font-size:20px;}
+    #headerBox {border: 5px dotted black;}
+
     p{color:orange;}
     * {background-color: yellow;}
+    .paraBox {border: 5px solid black;}
     </style>
   </head>
   <body>
+  <div id="conBox">
+    <div id="headerBox">
     <h1>this is an h1 tag</h1>
     <p>the statement above is true</p>
+  </div>
+
+  <div class="paraBox">
     <h2>بيان صحيح أعلاه</h2>
     <p>η παραπάνω δήλωση είναι στα αραβικά</p>
+  </div>
+
+  <div class="paraBox">
     <h2>Get to School</h2>
-    <p>Play my <a href="www/index.html"> game!</a>.</p>
+    <p>Play my <a href="other/hidden.html"> game!</a>.</p>
+  </div>
+</div>
   </body>
 </html>
