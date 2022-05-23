@@ -1,0 +1,94 @@
+body {
+  height: 100%;
+}
+
+.thumbsBox {
+  width: 50%;
+  height: 50%;
+  font-size: 69px;
+}
+
+.pTop {
+  position: absolute;
+  top: 0px;
+  border-style: solid;
+  text-align: center;
+}
+
+.pBot {
+  position: absolute;
+  bottom: 0px;
+  border-style: solid;
+  text-align: center;
+}
+
+.pLeft {
+  position: absolute;
+  left: 0px;
+  border-style: solid;
+  text-align: center;
+}
+
+.pRight {
+  position: absolute;
+  right: 0px;
+  border-style: solid;
+  text-align: center;
+}
+
+#tUp {
+  background-color: #33cc33;
+}
+
+#tWiggle {
+  background-color: #00ccff;
+}
+
+#tDown {
+  background-color: #ff3333;
+}
+
+#tOops {
+  background-color: #ffe680;
+}
+
+#tUp:hover {
+  background-color: #ffffff;
+}
+
+#tWiggle:hover {
+  background-color: #ffffff;
+}
+
+#tDown:hover {
+  background-color: #ffffff;
+}
+
+#tOops:hover {
+  background-color: #ffffff;
+}
+div {
+  background-color: white;
+}
+
+#conBox {
+  border: 5px solid red
+}
+
+#headerBox {
+  background-color: blue;
+  margin: 20px;
+  border: 5px dotted black;
+  color: blue;
+  font-size: 20px;
+}
+
+p {
+  color: orange;
+}
+
+.paraBox {
+  background-color: yellow;
+  border: 5px solid black;
+  margin: 20px;
+}

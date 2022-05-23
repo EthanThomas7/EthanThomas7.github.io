@@ -1,94 +1,42 @@
 body {
-  height: 100%;
+  background-color: #660033;
 }
-
-.thumbsBox {
-  width: 50%;
-  height: 50%;
-  font-size: 69px;
-}
-
-.pTop {
-  position: absolute;
-  top: 0px;
+#headerBox{
   border-style: solid;
   text-align: center;
+  font-size: 40px;
 }
+#contentBox{
+  border-style: dashed;
 
-.pBot {
-  position: absolute;
-  bottom: 0px;
-  border-style: solid;
+}
+#navBox{
+  border-style: dotted;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 20px;
+}
+.linkBox{
+  border-style: double;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #000000
+}
+.paraBox img {
+  float: right;
+  width: 200px;
+}
+.paraBox{
+  border-style: groove;
+  border-color: #000000;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  font-size: 30px;
+}
+#fishVideo{
   text-align: center;
-}
-
-.pLeft {
-  position: absolute;
-  left: 0px;
-  border-style: solid;
-  text-align: center;
-}
-
-.pRight {
-  position: absolute;
-  right: 0px;
-  border-style: solid;
-  text-align: center;
-}
-
-#tUp {
-  background-color: #33cc33;
-}
-
-#tWiggle {
-  background-color: #00ccff;
-}
-
-#tDown {
-  background-color: #ff3333;
-}
-
-#tOops {
-  background-color: #ffe680;
-}
-
-#tUp:hover {
-  background-color: #ffffff;
-}
-
-#tWiggle:hover {
-  background-color: #ffffff;
-}
-
-#tDown:hover {
-  background-color: #ffffff;
-}
-
-#tOops:hover {
-  background-color: #ffffff;
-}
-div {
-  background-color: white;
-}
-
-#conBox {
-  border: 5px solid red
-}
-
-#headerBox {
-  background-color: blue;
-  margin: 20px;
-  border: 5px dotted black;
-  color: blue;
-  font-size: 20px;
-}
-
-p {
-  color: orange;
-}
-
-.paraBox {
-  background-color: yellow;
-  border: 5px solid black;
-  margin: 20px;
 }

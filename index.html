@@ -5,53 +5,42 @@
   <meta charset="utf-8">
   <title>Ethan's Website</title>
   <link rel="stylesheet" href="css/style.css">
-  <style media="screen">
-    #navBox {
-      border: 2px solid #000000;
-      padding: 10px;
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-    }
-    .child {
-      border: 2px solid #000000;
-      padding: 2px;
-      display: inline;
-    }
-  </style>
+  <script src="js/functions.js" charset="utf-8"></script>
+  <meta name="veiwport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div id="conBox">
 
-    <div id="headerBox" style="background-color: red;">
-      <h1>this is an h1 tag</h1>
-      <p>the statement above is true</p>
+  <div id="contentBox">
+    <div id="headerBox">
+      Final Project 2022
     </div>
-
-      <div id="navBox">
-        <div class="child">
-          <a href="other/hidden.html">Home</a>
-        </div>
-        <div class="child">
-          <a href="about.html">About</a>
-        </div>
-        <div class="child">
-          <a href="fish.webp">GTS</a>
-        </div>
+    <div id="navBox">
+      <div class="linkBox">
+        <a href="other/old_index.html">Home</a>
       </div>
-
-    <div class="paraBox">
-      <h2>بيان صحيح أعلاه</h2>
-      <p>η παραπάνω δήλωση είναι στα αραβικά</p>
+      <div class="linkBox">
+        <a href="about.html">About</a>
+      </div>
+      <div class="linkBox">
+        <a href="other/tutd.html">Game</a>
+      </div>
     </div>
-
     <div class="paraBox">
-      <h2>Get to School</h2>
-      <p>Play my <a href="www/index.html"> game!</a>.</p>
+      <p>Below is a true statement.</p>
     </div>
+    <div class="paraBox">
+      <img src="img/fish.webp" alt="">
+      <pre>Low quality fish</pre>
 
+    </div>
   </div>
+    <div id="fishVideo">
+  <video width="500" height="500" controls autoplay>
+    <source src="video/fish.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </div>
+  </video>
 </body>
 
 </html>
